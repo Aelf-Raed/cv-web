@@ -1,4 +1,27 @@
+/*Texto sombra de inicio*/
+.t-shadow{
+   text-shadow: 0.1em 0.1em 0.08em black;
+}
+
+/* Medidas imagen de perfil */
 .img-config{
-  max-width: 300px;
-  min-height: 350px;
+  width: 100%;
+  height: 110%;
+}
+
+/*Justificar texto*/
+.justify{
+  text-align: justify;
+}
+
+/*Efecto enlace Portafolio*/
+#works a:hover{
+  text-decoration: underline;
+}
+
+/*Acomodo del inicio (pantallas/navegadores) menores a 992px*/
+@media (max-width:992px){
+ #myDiv{
+   padding: 0px !important;
+ }
 }
