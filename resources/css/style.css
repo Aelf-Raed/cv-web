@@ -6,7 +6,7 @@
 /* Medidas imagen de perfil */
 .img-config{
   width: 100%;
-  height: 110%;
+  height: 100%;
 }
 
 /*Justificar texto*/
@@ -14,9 +14,9 @@
   text-align: justify;
 }
 
-/*Efecto enlace Portafolio*/
-#works a:hover{
-  text-decoration: underline;
+/*Barra de progreso*/
+.progress-bar{
+  width: 50%;
 }
 
 /*Acomodo del inicio (pantallas/navegadores) menores a 992px*/
@@ -24,4 +24,15 @@
  #myDiv{
    padding: 0px !important;
  }
+}
+
+/*Acomodo de tamaño cards*/
+.card-img-top {
+    height: 10vw;
+    /* object-fit: cover; */
+}
+
+/*Efecto enlace Portafolio*/
+#works a:hover{
+  text-decoration: underline;
 }
